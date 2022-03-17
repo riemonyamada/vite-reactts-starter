@@ -18,7 +18,7 @@ Clone the repo and `npm install`
 
 ## How to create this starter
 
-This if for your reference.
+This is for your reference.
 
 ### create project using vite
 
