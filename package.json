@@ -1,5 +1,5 @@
 {
-  "name": "react-template",
+  "name": "vite-reactts-starter",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -17,6 +17,8 @@
     "@mui/icons-material": "^5.5.1",
     "@mui/lab": "^5.0.0-alpha.73",
     "@mui/material": "^5.5.1",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "jotai": "^1.6.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.2"
@@ -43,9 +45,9 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "npm run lint:format",
-      "npm run lint:fix"
+      "prettier --write",
+      "eslint --fix"
     ],
-    "*.{html,css,md,json}": "npm run lint:format"
+    "*.{html,css,md,json}": "prettier --write"
   }
 }

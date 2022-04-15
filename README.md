@@ -126,3 +126,19 @@ npx mrm@2 lint-staged
 
 - remove `pre-commit` entry from `package.json`
 - update `lint-staged` entry in `package.json`
+
+### add @vitejs/plugin-react-refresh
+
+```shell
+npm i @vitejs/plugin-react-refresh
+```
+
+- update `vite.config.ts`
+
+### add Jotai
+
+```shell
+npm install Jotai
+```
+
+- update `vite.config.ts`
